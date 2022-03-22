@@ -74,3 +74,30 @@ form {
 button:active {
     transform: scale(0.8);
 }
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    body {
+        background-repeat: no-repeat;
+        background-size: 100vh;
+    }
+    .secao1 {
+        top: 340px;
+        left: 30px;
+    }
+    #tecladovirtual {
+        width: 74%;
+        height: 170px;
+        background-image: linear-gradient(40deg, white, #f3f3f3);
+        position: absolute;
+        top: 50px;
+        color: black;
+        font-size: 20px;
+        padding: 3px;
+    }
+    button {
+        padding: 9px;
+    }
+}
